@@ -1,0 +1,118 @@
+/*!
+ * Bootstrap v4.5.2 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
+
+body {
+  background-color: $body-color;
+  font-family: "Josefin Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.main-color {
+  background-color: $body-color;
+}
+
+.nav-link {
+  color: #a0b1c5;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hi-text {
+  font-size: 2.25rem;
+}
+
+.name-text {
+  font-size: 3rem;
+}
+
+.describe-text {
+  font-size: 1.25rem;
+}
+
+.course-work {
+  line-height: 1.5;
+}
+
+.badge-work {
+  width: fit-content;
+  border: 2px solid $primary;
+  color: $primary;
+  border-radius: 5px;
+}
+
+.task-exp {
+  font-size: 19px;
+}
+
+.desc-project {
+  font-weight: 20;
+  line-height: 1.5;
+}
+
+.btn-github {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  border: 1.8px solid grey;
+  border-radius: 5px;
+}
+
+.btn-github:hover {
+  color: white;
+}
+
+.biography {
+  line-height: 1.8;
+}
+
+@media (min-width: 992px) {
+  .nav-link {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 576px) {
+}
