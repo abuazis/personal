@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "image": "/images/portfolio-1.png",
+      "image": "https://i.ibb.co/HTcGF28/portfolio-1.png",
       "name": "Abuza App",
       "description": "Abuza App is a Simple UI Application that displays a list of food menus and specific types of food from any restaurant. This application also displays a feature to checkout food and earn points after ordering certain foods.",
       "tech": [
@@ -16,7 +16,7 @@
       "github_link": "https://github.com/abuazis/Abuza-App"
     },
     {
-      "image": "/images/portfolio-2.png",
+      "image": "https://i.ibb.co/6nnQ4wf/portfolio-2.png",
       "name": "Flutix",
       "description": "Flutix is ​​a mobile application made to help people to buy tickets online via their cellphone. Flutix uses data collection methods to display the currently airing movie atches genre chosen by the user.",
       "tech": [
@@ -37,7 +37,7 @@
       "github_link": "https://github.com/abuazis/Flutix"
     },
     {
-      "image": "/images/portfolio-3.png",
+      "image": "https://i.ibb.co/nnmpyfK/portfolio-3.png",
       "name": "Fudamiku",
       "description": "Fudamiku is mobile application used to make an order remotely at Fudamiku restaurant Jakarta. This application is made using Flutter Framework and Laravel API Back-End and integrated with midtrans payment gateway.",
       "tech": [
@@ -61,7 +61,7 @@
       "github_link": "https://github.com/abuazis/Fudamiku"
     },
     {
-      "image": "/images/portfolio-4.png",
+      "image": "https://i.ibb.co/K9QDF4C/portfolio-4.png",
       "name": "GoAbsensi",
       "description": "GoAbsensi is presence application used by students / employees to perform daily attendance digitally. There are several security measures that strengthen data accuracy so that users cannot commit fraudulent acts.",
       "tech": [
@@ -82,7 +82,7 @@
       "github_link": "https://github.com/abuazis/GoAbsensi"
     },
     {
-      "image": "/images/portfolio-5.png",
+      "image": "https://i.ibb.co/yX7DRMh/portfolio-5.png",
       "name": "PS5 Store",
       "description": "PS5 Store is simple UI app used to make sales PlayStation 5 products such as Stick Controller, Mice, and Video Games. This project only provides a user interface design transformed into an application using Flutter Framework.",
       "tech": [
@@ -97,7 +97,7 @@
       "github_link": "https://github.com/abuazis/PS5-Store"
     },
     {
-      "image": "/images/portfolio-6.png",
+      "image": "https://i.ibb.co/7SC7CKX/portfolio-6.png",
       "name": "Digital Raport",
       "description": "Digital Raport is website application used by school teachers and student's parent to do the evaluation distribution online earning outcomes through this website without face to face meeting.",
       "tech": [
@@ -115,7 +115,7 @@
       "github_link": "https://github.com/abuazis/ThisRaport"
     },
     {
-      "image": "/images/portfolio-7.png",
+      "image": "https://i.ibb.co/Y3ZWtRF/portfolio-7.png",
       "name": "Hujjah Store",
       "description": "Hujjah Store is online shop website sells a wide variety of books. As our buyers can make book purchases by manual transfer method. We provide admin panel to manage book product.",
       "tech": [
@@ -133,7 +133,7 @@
       "github_link": "https://github.com/abuazis/Bookos"
     },
     {
-      "image": "/images/portfolio-8.png",
+      "image": "https://i.ibb.co/McqnS3r/portfolio-8.png",
       "name": "Multiplaza",
       "description": "Multiplaza is e-commerce website application using the marketplace system. Which is where the seller can open stalls on this website for sell their products to buyers on this website too.",
       "tech": [
@@ -154,7 +154,7 @@
       "github_link": "https://github.com/abuazis/Multiplaza"
     },
     {
-      "image": "/images/portfolio-9.png",
+      "image": "https://i.ibb.co/qryHqqB/portfolio-9.png",
       "name": "Resto Serve",
       "description": "Resto Serve is restaurant service website made to easing restaurant employees in handling food orders directly use the queuing system integrated between employees. And also monitoring daily selling data chart.",
       "tech": [
@@ -175,7 +175,7 @@
       "github_link": "https://github.com/abuazis/Resto-Serve"
     },
     {
-      "image": "/images/portfolio-10.png",
+      "image": "https://i.ibb.co/DwQrZTj/portfolio-10.png",
       "name": "Abu Aziz Personal Portfolio",
       "description": "Abu Aziz Personal Portfolio Website is made to show off my portfolio project that have been worked. Fully built using React JS and designed to be responsive. Side weekend project to try out several new framewrok and techstacks.",
       "tech": [
@@ -187,7 +187,7 @@
         }
       ],
       "play_store_link": null,
-      "github_link": "#"
+      "github_link": "https://github.com/abuazis/personal"
     }
   ]
 }
