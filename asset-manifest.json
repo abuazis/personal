@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/personal/static/css/main.ba83890d.chunk.css",
+    "main.js": "/personal/static/js/main.c936f543.chunk.js",
+    "main.js.map": "/personal/static/js/main.c936f543.chunk.js.map",
+    "runtime-main.js": "/personal/static/js/runtime-main.56d4c70d.js",
+    "runtime-main.js.map": "/personal/static/js/runtime-main.56d4c70d.js.map",
+    "static/js/2.c2b89aed.chunk.js": "/personal/static/js/2.c2b89aed.chunk.js",
+    "static/js/2.c2b89aed.chunk.js.map": "/personal/static/js/2.c2b89aed.chunk.js.map",
+    "index.html": "/personal/index.html",
+    "precache-manifest.0eea2d4f1077b420f706960b8f0f6283.js": "/personal/precache-manifest.0eea2d4f1077b420f706960b8f0f6283.js",
+    "service-worker.js": "/personal/service-worker.js",
+    "static/css/main.ba83890d.chunk.css.map": "/personal/static/css/main.ba83890d.chunk.css.map",
+    "static/js/2.c2b89aed.chunk.js.LICENSE.txt": "/personal/static/js/2.c2b89aed.chunk.js.LICENSE.txt",
+    "static/media/google-play-badge.png": "/personal/static/media/google-play-badge.db9b21a1.png",
+    "static/media/profile.png": "/personal/static/media/profile.372920e0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56d4c70d.js",
+    "static/js/2.c2b89aed.chunk.js",
+    "static/css/main.ba83890d.chunk.css",
+    "static/js/main.c936f543.chunk.js"
+  ]
+}
