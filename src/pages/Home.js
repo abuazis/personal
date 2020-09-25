@@ -9,23 +9,23 @@ import Skill from "../components/Skill";
 import About from "../components/About";
 import Footer from "../components/Footer";
 
-export default class Home extends Component {
-  constructor(props) {
-    super(props);
-    this.refMostPicked = React.createRef();
-  }
+import profile from "../json/profile.json";
+import experiences from "../json/experiences.json";
+import projects from "../json/projects.json";
+import skills from "../json/skills.json";
 
+export default class Home extends Component {
   render() {
     return (
       <>
-        <Navbar {...this.props} />
-        <Hero />
-        <Education />
-        <Experience />
-        <Project />
-        <Skill />
-        <About />
-        <Footer />
+        <Navbar />
+        <Hero data={profile.hero} />
+        <Education data={profile.education} />
+        <Experience data={experiences.expriences} />
+        <Project data={projects.projects} />
+        <Skill data={skills} />
+        <About data={profile} />
+        <Footer data={profile.social_media} />
       </>
     );
   }

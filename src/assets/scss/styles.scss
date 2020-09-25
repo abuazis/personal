@@ -47,7 +47,16 @@
 body {
   background-color: $body-color;
   font-family: "Josefin Sans", sans-serif;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
+  // transition-duration: 1s;
+}
+
+.dark-font {
+  color: #424242;
+}
+
+.light-font {
+  color: #ffffff;
 }
 
 .main-color {
@@ -58,6 +67,10 @@ body {
   color: #a0b1c5;
   font-size: 24px;
   font-weight: bold;
+}
+
+.nav-item {
+  cursor: pointer;
 }
 
 .hi-text {
@@ -114,5 +127,147 @@ body {
   }
 }
 
-@media (min-width: 576px) {
+.toggle {
+  display: block;
+  text-align: center;
+  user-select: none;
+}
+.toggle--checkbox {
+  display: none;
+}
+.toggle--btn {
+  display: block;
+  margin: 0 auto;
+
+  font-size: 1.4em;
+
+  transition: all 350ms ease-in;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.toggle--btn,
+.toggle--checkbox {
+  &,
+  &:before,
+  &:after {
+    transition: all 250ms ease-in;
+  }
+  &:before,
+  &:after {
+    content: "";
+    display: block;
+  }
+}
+
+$toggleHeight: 35px;
+$toggleWidth: 62.5px;
+$borderWidth: 5px;
+$toggleBtnRadius: $toggleHeight - 14px;
+
+$bgColor--night: #3c4145;
+$borderColor--night: #1c1c1c;
+$toggleBtn-bgColor--night: #fff;
+$toggleBtn-borderColor--night: #e3e3c7;
+
+$bgColor--day: #9ee3fb;
+$borderColor--day: #86c3d7;
+$toggleBtn-bgColor--day: #ffdf6d;
+$toggleBtn-borderColor--day: #e1c348;
+
+.toggle--daynight,
+.toggle--like {
+  .toggle--btn {
+    position: relative;
+    height: $toggleHeight;
+    width: $toggleWidth;
+    border-radius: $toggleHeight;
+
+    //toggle button
+    &:before {
+      position: absolute;
+      top: 2px;
+      left: 4px;
+      width: $toggleBtnRadius;
+      height: $toggleBtnRadius;
+      border-radius: 50%;
+    }
+  }
+}
+
+.toggle--daynight {
+  .toggle--btn {
+    border: $borderWidth solid $borderColor--night;
+    background-color: $bgColor--night;
+
+    //toggle button
+    &:before {
+      background-color: $toggleBtn-bgColor--night;
+      border: $borderWidth solid $toggleBtn-borderColor--night;
+    }
+    &:after {
+      position: absolute;
+      top: 62%;
+      left: $toggleWidth - ($toggleBtnRadius) - ($borderWidth * 2) - 20px;
+      z-index: 10;
+      width: $toggleBtnRadius / 5;
+      height: $toggleBtnRadius / 5;
+      opacity: 0;
+
+      transition: opacity 100ms ease-in;
+    }
+  }
+
+  @keyframes starry_star {
+    50% {
+      background-color: rgba(255, 255, 255, 0.1);
+      box-shadow: #fff 30px -3px 0 0, #fff 12px 10px 0 -1px,
+        rgba(255, 255, 255, 0.1) 38px 18px 0 1px, #fff 32px 34px 0 0,
+        rgba(255, 255, 255, 0.1) 20px 24px 0 -1.5px, #fff 5px 38px 0 1px;
+    }
+  }
+  @keyframes bounceIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+    50% {
+      opacity: 100;
+      transform: scale(1.1);
+    }
+    55% {
+      transform: scale(1.1);
+    }
+    75% {
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 100;
+      transform: scale(1);
+    }
+  }
+
+  //what happens once checkbox is checked
+  .toggle--checkbox:checked {
+    & + .toggle--btn {
+      background-color: $bgColor--day;
+      border: $borderWidth solid $borderColor--day;
+
+      &:before {
+        left: $toggleWidth - ($toggleBtnRadius) - ($borderWidth * 2) - 4px;
+        background-color: $toggleBtn-bgColor--day;
+        border: $borderWidth solid $toggleBtn-borderColor--day;
+      }
+      &:after {
+        opacity: 100;
+        animation-name: bounceIn;
+        animation-duration: 0.6s;
+        animation-delay: 0.1s;
+        animation-fill-mode: backwards;
+        animation-timing-function: ease-in-out;
+      }
+    }
+  }
 }

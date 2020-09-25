@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import Badge from "../parts/Badge";
 
-export default function Education() {
+export default function Education(props) {
   return (
     <Fade>
       <section id="experience" className="container py-5 my-5">
@@ -12,27 +12,24 @@ export default function Education() {
             <div className="container-fluid px-0">
               <div className="row">
                 <div className="col-sm-12 col-md-3 mb-3 mb-md-0">
-                  <h5 className="text-white mb-3">Bekasi, Indonesia</h5>
-                  <h5 className="text-white">2017 - 2020</h5>
+                  <h5 className="text-white mb-3">{props.data.place}</h5>
+                  <h5 className="text-white">{props.data.year}</h5>
                 </div>
                 <div className="col-sm-12 col-md-9">
                   <div className="mb-3">
                     <h4 className="text-white font-weight-bold d-inline-block">
-                      Rekayasa Perangkat Lunak -&nbsp;
+                      {props.data.major} -&nbsp;
                     </h4>
                     <h4 className="text-primary font-weight-bold d-inline-block">
-                      SMK Negeri 1 Kota Bekasi
+                      {props.data.school}
                     </h4>
                   </div>
                   <div className="mb-4">
                     <h5 className="text-white course-work">
-                      <b>Relevant Coursework :</b> Database Management, Basic
-                      Programming, Object Oriented Programming, Web Programming,
-                      Software Modeling, Digital Simulation, Computer System,
-                      Basic Computer Network, Basic Graphic Design;
+                      <b>Relevant Coursework :</b> {props.data.course_work}
                     </h5>
                   </div>
-                  <Badge name="Software Engineering" />
+                  <Badge name={props.data.badge} />
                 </div>
               </div>
             </div>

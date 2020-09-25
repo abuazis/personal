@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "full_name": "Abu Toyib Al Aziz",
+    "role": "Mobile Developer Freelance",
+    "stack": "Mobile Development",
+    "tech": "Flutter Framework",
+    "tech_link": "http://flutter.dev/"
+  },
+  "education": {
+    "place": "Bekasi, Indonesia",
+    "year": "2017 - 2020",
+    "major": "Rekayasa Perangkat Lunak",
+    "school": "SMK Negeri 1 Kota Bekasi",
+    "course_work": "Database Management, Basic Programming, Object Oriented Programming, Web Programming, Software Modeling, Digital Simulation, Computer System, Basic Computer Network, Basic Graphic Design;",
+    "badge": "Software Engineering"
+  },
+  "biography": {
+    "stack": "Mobile Developement",
+    "body": "My first experience with programming was on school in vocational high school majored software engineering. I learned most of these skills in self-taught way because it felt more flexible and independent for myself. I also joined programming community to share about knowledge and experiences with other members."
+  },
+  "interest": [
+    {
+      "name": "Programming"
+    },
+    {
+      "name": "Science"
+    },
+    {
+      "name": "Tech"
+    },
+    {
+      "name": "Game"
+    },
+    {
+      "name": "Anime"
+    },
+    {
+      "name": "Martial Arts"
+    },
+    {
+      "name": "Football"
+    }
+  ],
+  "contact": {
+    "telephone": "0857-1846-5342",
+    "whatsapp": "0895-3967-80183",
+    "email": "abuaziscorp@gmail.com",
+    "discord": "Abuza#0485"
+  },
+  "social_media": {
+    "linked_in": "https://linkedin.com/abuazis",
+    "github": "https://github.com/abuazis",
+    "instagram": "https://www.instagram.com/abuzaio",
+    "google_developer": "http://play.google.com/store/apps/dev?id=5762269740503030785"
+  }
+}

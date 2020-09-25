@@ -2,14 +2,12 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
 
 import Icon from "../parts/Icon";
+import SwitchTheme from "../parts/SwitchTheme";
 
-export default function Navbar(props) {
-  const getNavLinkClass = (path) => {
-    return props.location.pathname === path ? " active" : "";
-  };
-
+export default function Navbar() {
   return (
     <Fade>
       <header className="spacing-sm">
@@ -34,30 +32,72 @@ export default function Navbar(props) {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav ml-auto py-4 py-lg-0">
-                <li className={`nav-item${getNavLinkClass("#")}`}>
-                  <a className="nav-link px-lg-4" href="#">
+                <li className="nav-item">
+                  <Link
+                    className="nav-link px-lg-4"
+                    activeClass="active"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                  >
                     Home
-                  </a>
+                  </Link>
                 </li>
-                <li className={`nav-item${getNavLinkClass("#experience")}`}>
-                  <a className="nav-link px-lg-4" href="#experience">
+                <li className="nav-item">
+                  <Link
+                    className="nav-link px-lg-4"
+                    activeClass="active"
+                    to="experience"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                  >
                     Experiences
-                  </a>
+                  </Link>
                 </li>
-                <li className={`nav-item${getNavLinkClass("#project")}`}>
-                  <a className="nav-link px-lg-4" href="#project">
+                <li className="nav-item">
+                  <Link
+                    className="nav-link px-lg-4"
+                    activeClass="active"
+                    to="project"
+                    spy={true}
+                    smooth={true}
+                    offset={-30}
+                    duration={500}
+                  >
                     Projects
-                  </a>
+                  </Link>
                 </li>
-                <li className={`nav-item${getNavLinkClass("#skill")}`}>
-                  <a className="nav-link px-lg-4" href="#skill">
+                <li className="nav-item">
+                  <Link
+                    className="nav-link px-lg-4"
+                    activeClass="active"
+                    to="skill"
+                    spy={true}
+                    smooth={true}
+                    offset={-30}
+                    duration={1000}
+                  >
                     Skills
-                  </a>
+                  </Link>
                 </li>
-                <li className={`nav-item${getNavLinkClass("#about")}`}>
-                  <a className="nav-link pl-lg-4" href="#about">
+                <li className="nav-item">
+                  <Link
+                    className="nav-link px-lg-4"
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-30}
+                    duration={1300}
+                  >
                     About
-                  </a>
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <SwitchTheme />
                 </li>
               </ul>
             </div>

@@ -1,0 +1,46 @@
+{
+  "expriences": [
+    {
+      "place": "Jakarta, Indonesia",
+      "time": "December 2018 - April 2019",
+      "role": "Web Developer Intern",
+      "company": "Diginova Kreasi Indonesia",
+      "task_1": "Create a business model canvas project",
+      "task_2": "Create ui design for website application",
+      "task_3": "Implement ui design to responsive front-end view",
+      "task_4": "Integrate front-end view to back-end using codeigniter",
+      "tech_1": "Adobe XD",
+      "tech_2": "Bootstrap CSS",
+      "tech_3": "PHP",
+      "tech_4": "Codeigniter"
+    },
+    {
+      "place": "Jakarta, Indonesia",
+      "time": "July 2020 - August 2020",
+      "role": "Mobile Developer Freelance (Full-Stack)",
+      "company": "Fudamiku Restaurant",
+      "task_1": "Create back-end api using laravel framework",
+      "task_2": "Implement ui design to flutter project",
+      "task_3": "Integrate payment gateway midtrans",
+      "task_4": "Publish app release to play store",
+      "tech_1": "Laravel",
+      "tech_2": "Dart",
+      "tech_3": "Flutter",
+      "tech_4": "Midtrans"
+    },
+    {
+      "place": "Bekasi, Indonesia",
+      "time": "September 2020",
+      "role": "Mobile Developer Freelance",
+      "company": "Flutter Indonesia",
+      "task_1": "Create ui design using figma",
+      "task_2": "Implement ui design to flutter project",
+      "task_3": "Integrate back-end using firebase service",
+      "task_4": "Publish app release to play store",
+      "tech_1": "Figma",
+      "tech_2": "Flutter",
+      "tech_3": "Firebase",
+      "tech_4": "One Signal"
+    }
+  ]
+}

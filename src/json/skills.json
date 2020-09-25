@@ -1,0 +1,65 @@
+{
+  "strong": [
+    {
+      "name": "PHP"
+    },
+    {
+      "name": "Javascript"
+    },
+    {
+      "name": "Java"
+    },
+    {
+      "name": "Dart"
+    },
+    {
+      "name": "Flutter"
+    },
+    {
+      "name": "Codeigniter"
+    },
+    {
+      "name": "Laravel"
+    },
+    {
+      "name": "React"
+    }
+  ],
+  "experienced": [
+    {
+      "name": "Node JS"
+    },
+    {
+      "name": "Android"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Docker"
+    },
+    {
+      "name": "Microservice"
+    },
+    {
+      "name": "Firebase"
+    },
+    {
+      "name": "Rest API"
+    },
+    {
+      "name": "Linux"
+    }
+  ],
+  "familiar": [
+    {
+      "name": "Python"
+    },
+    {
+      "name": "C++"
+    },
+    {
+      "name": "TensorFlow"
+    }
+  ]
+}
