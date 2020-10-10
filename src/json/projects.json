@@ -97,6 +97,24 @@
       "github_link": "https://github.com/abuazis/PS5-Store"
     },
     {
+      "image": "https://i.ibb.co/nrqWkyF/portfolio-11.png",
+      "name": "Savana",
+      "description": "Savana is mobile-based savings application that use to record users target needs to be purchased with savings. Keep daily savings routine data from the target they want to achieve based on the nominal.",
+      "tech": [
+        {
+          "name": "Dart"
+        },
+        {
+          "name": "Flutter"
+        },
+        {
+          "name": "Hive"
+        }
+      ],
+      "play_store_link": "https://play.google.com/store/apps/details?id=com.abuaziz.savana",
+      "github_link": "https://github.com/abuazis/Savana"
+    },
+    {
       "image": "https://i.ibb.co/7SC7CKX/portfolio-6.png",
       "name": "Digital Raport",
       "description": "Digital Raport is website application used by school teachers and student's parent to do the evaluation distribution online earning outcomes through this website without face to face meeting.",
