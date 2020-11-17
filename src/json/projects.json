@@ -18,7 +18,7 @@
     {
       "image": "https://i.ibb.co/6nnQ4wf/portfolio-2.png",
       "name": "Flutix",
-      "description": "Flutix is ​​a mobile application made to help people to buy tickets online via their cellphone. Flutix uses data collection methods to display the currently airing movie atches genre chosen by the user.",
+      "description": "Flutix is ​​a mobile application made to help people to buy tickets online via their cellphone. Flutix uses data collection methods to display the currently airing movie catches genre chosen by the user.",
       "tech": [
         {
           "name": "Dart"
@@ -113,6 +113,30 @@
       ],
       "play_store_link": "https://play.google.com/store/apps/details?id=com.abuaziz.savana",
       "github_link": "https://github.com/abuazis/Savana"
+    },
+    {
+      "image": "https://i.ibb.co/Fx0Qzw4/portfolio-5.png",
+      "name": "HC Hospital",
+      "description": "HC Hospital is application that used to make booking with doctor to make appointment for medical check-up, consultation and routine control. There are many features so that users don't get bored by providing various features.",
+      "tech": [
+        {
+          "name": "Dart"
+        },
+        {
+          "name": "Flutter"
+        },
+        {
+          "name": "Hive"
+        },
+        {
+          "name": "Firebase"
+        },
+        {
+          "name": "One Signal"
+        }
+      ],
+      "play_store_link": "https://play.google.com/store/apps/details?id=com.abuzaio.heaven_canceller_hospital",
+      "github_link": "https://github.com/abuazis/HC-Hospital-App"
     },
     {
       "image": "https://i.ibb.co/7SC7CKX/portfolio-6.png",

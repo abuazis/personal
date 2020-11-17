@@ -41,6 +41,20 @@
       "tech_2": "Flutter",
       "tech_3": "Firebase",
       "tech_4": "One Signal"
+    },
+    {
+      "place": "Senayan Jakarta, Indonesia",
+      "time": "September 2020 - Oktober 2020",
+      "role": "Mobile Developer Freelance (Full-Stack)",
+      "company": "Biznis ID",
+      "task_1": "Research business feature and user requirement",
+      "task_2": "Create prototype ui design using figma",
+      "task_3": "Implement ui design to flutter project",
+      "task_4": "Integrate back-end api laravel framework",
+      "tech_1": "Maze Design",
+      "tech_2": "Figma",
+      "tech_3": "Flutter",
+      "tech_4": "Laravel"
     }
   ]
 }
