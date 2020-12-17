@@ -139,6 +139,30 @@
       "github_link": "https://github.com/abuazis/HC-Hospital-App"
     },
     {
+      "image": "https://i.ibb.co/5cD0F1z/portfolio-5.png",
+      "name": "Comida",
+      "description": "Comida is marketplace application that sell food and beverage menus from various restaurants. User only need to choose food or restaurant first before ordering. For now Comida is still in the development",
+      "tech": [
+        {
+          "name": "Dart"
+        },
+        {
+          "name": "Flutter"
+        },
+        {
+          "name": "Laravel"
+        },
+        {
+          "name": "Firebase"
+        },
+        {
+          "name": "Zomato"
+        }
+      ],
+      "play_store_link": null,
+      "github_link": "https://github.com/abuazis/Comida"
+    },
+    {
       "image": "https://i.ibb.co/7SC7CKX/portfolio-6.png",
       "name": "Digital Raport",
       "description": "Digital Raport is website application used by school teachers and student's parent to do the evaluation distribution online earning outcomes through this website without face to face meeting.",
