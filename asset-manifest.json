@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal/static/css/main.ba83890d.chunk.css",
-    "main.js": "/personal/static/js/main.87909d25.chunk.js",
-    "main.js.map": "/personal/static/js/main.87909d25.chunk.js.map",
+    "main.css": "/personal/static/css/main.b2a5d398.chunk.css",
+    "main.js": "/personal/static/js/main.683261b2.chunk.js",
+    "main.js.map": "/personal/static/js/main.683261b2.chunk.js.map",
     "runtime-main.js": "/personal/static/js/runtime-main.56d4c70d.js",
     "runtime-main.js.map": "/personal/static/js/runtime-main.56d4c70d.js.map",
     "static/js/2.c2b89aed.chunk.js": "/personal/static/js/2.c2b89aed.chunk.js",
     "static/js/2.c2b89aed.chunk.js.map": "/personal/static/js/2.c2b89aed.chunk.js.map",
     "index.html": "/personal/index.html",
-    "precache-manifest.cf37252aa901b9b37ac3521b985c8414.js": "/personal/precache-manifest.cf37252aa901b9b37ac3521b985c8414.js",
+    "precache-manifest.69914bbc94cbdb1b9dbd1cc2850c505a.js": "/personal/precache-manifest.69914bbc94cbdb1b9dbd1cc2850c505a.js",
     "service-worker.js": "/personal/service-worker.js",
-    "static/css/main.ba83890d.chunk.css.map": "/personal/static/css/main.ba83890d.chunk.css.map",
+    "static/css/main.b2a5d398.chunk.css.map": "/personal/static/css/main.b2a5d398.chunk.css.map",
     "static/js/2.c2b89aed.chunk.js.LICENSE.txt": "/personal/static/js/2.c2b89aed.chunk.js.LICENSE.txt",
     "static/media/google-play-badge.png": "/personal/static/media/google-play-badge.db9b21a1.png",
     "static/media/profile.png": "/personal/static/media/profile.372920e0.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.56d4c70d.js",
     "static/js/2.c2b89aed.chunk.js",
-    "static/css/main.ba83890d.chunk.css",
-    "static/js/main.87909d25.chunk.js"
+    "static/css/main.b2a5d398.chunk.css",
+    "static/js/main.683261b2.chunk.js"
   ]
 }
