@@ -1,21 +1,6 @@
 {
   "projects": [
     {
-      "image": "https://i.ibb.co/HTcGF28/portfolio-1.png",
-      "name": "Abuza App",
-      "description": "Abuza App is a Simple UI Application that displays a list of food menus and specific types of food from any restaurant. This application also displays a feature to checkout food and earn points after ordering certain foods.",
-      "tech": [
-        {
-          "name": "Dart"
-        },
-        {
-          "name": "Flutter"
-        }
-      ],
-      "play_store_link": "https://play.google.com/store/apps/details?id=com.abuaziz.abuza_app",
-      "github_link": "https://github.com/abuazis/Abuza-App"
-    },
-    {
       "image": "https://i.ibb.co/6nnQ4wf/portfolio-2.png",
       "name": "Flutix",
       "description": "Flutix is ​​a mobile application made to help people to buy tickets online via their cellphone. Flutix uses data collection methods to display the currently airing movie catches genre chosen by the user.",
@@ -82,21 +67,6 @@
       "github_link": "https://github.com/abuazis/GoAbsensi"
     },
     {
-      "image": "https://i.ibb.co/yX7DRMh/portfolio-5.png",
-      "name": "PS5 Store",
-      "description": "PS5 Store is simple UI app used to make sales PlayStation 5 products such as Stick Controller, Mice, and Video Games. This project only provides a user interface design transformed into an application using Flutter Framework.",
-      "tech": [
-        {
-          "name": "Dart"
-        },
-        {
-          "name": "Flutter"
-        }
-      ],
-      "play_store_link": "https://play.google.com/store/apps/details?id=com.abuaziz.ps5_store",
-      "github_link": "https://github.com/abuazis/PS5-Store"
-    },
-    {
       "image": "https://i.ibb.co/TLP9rpp/portfolio-11.png",
       "name": "Savana",
       "description": "Savana is mobile-based savings application that use to record users target needs to be purchased with savings. Users will enter their daily savings routine data from the target they want to achieve based on the nominal.",
@@ -161,6 +131,36 @@
       ],
       "play_store_link": null,
       "github_link": "https://github.com/abuazis/Comida"
+    },
+    {
+      "image": "https://i.ibb.co/HTcGF28/portfolio-1.png",
+      "name": "Abuza App",
+      "description": "Abuza App is a Simple UI Application that displays a list of food menus and specific types of food from any restaurant. This application also displays a feature to checkout food and earn points after ordering certain foods.",
+      "tech": [
+        {
+          "name": "Dart"
+        },
+        {
+          "name": "Flutter"
+        }
+      ],
+      "play_store_link": null,
+      "github_link": "https://github.com/abuazis/Abuza-App"
+    },
+    {
+      "image": "https://i.ibb.co/yX7DRMh/portfolio-5.png",
+      "name": "PS5 Store",
+      "description": "PS5 Store is simple UI app used to make sales PlayStation 5 products such as Stick Controller, Mice, and Video Games. This project only provides a user interface design transformed into an application using Flutter Framework.",
+      "tech": [
+        {
+          "name": "Dart"
+        },
+        {
+          "name": "Flutter"
+        }
+      ],
+      "play_store_link": null,
+      "github_link": "https://github.com/abuazis/PS5-Store"
     },
     {
       "image": "https://i.ibb.co/7SC7CKX/portfolio-6.png",
